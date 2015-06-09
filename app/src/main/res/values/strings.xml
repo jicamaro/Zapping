@@ -1,0 +1,31 @@
+
+<resources>
+    <string name="app_name">Zapping</string>
+
+    <string name="placeholder_text">Placeholder</string>
+    <string name="placeholder_number">6</string>
+    <string name="title_activity_channel_detail">ChannelDetailActivity</string>
+    <string name="title_activity_media_player">MediaPlayerActivity</string>
+
+    <string name="channel_detail_name_red">La Red</string>
+    <string name="channel_detail_name_chv">CHV</string>
+    <string name="channel_detail_name_tvn">TVN</string>
+    <string name="channel_detail_name_13">Canal 13</string>
+    <string name="channel_detail_name_mega">MEGA</string>
+
+    <string name="channel_detail_number_red">2</string>
+    <string name="channel_detail_number_chv">4</string>
+    <string name="channel_detail_number_tvn">10</string>
+    <string name="channel_detail_number_13">8</string>
+    <string name="channel_detail_number_mega">12</string>
+
+    <string name="channel_detail_stream_red">rtmp://wow2.cl.digitalproserver.com/redtv/redtvvivo/livestream1.mp4</string>
+    <string name="channel_detail_stream_chv">http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvHi.m3u8</string>
+    <string name="channel_detail_stream_tvn">http://edge-11-gtd.edge.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b1500000.m3u8</string>
+    <string name="channel_detail_stream_13">http://live.hls.http.13.ztreaming.com/13hddesktop/13hd-900.m3u8</string>
+    <string name="channel_detail_stream_mega">http://edge-11-gtd.edge.mdstrm.com/live/smil:db6a38a0a2bffd96d01965c4d975b9fb/playlist_b1500.m3u8</string>
+
+    <string name="channel_detail_status_offline">Offline</string>
+    <string name="channel_detail_status_online">Online</string>
+    <string name="channel_detail_status_streaming">Streaming</string>
+</resources>

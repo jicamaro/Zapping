@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="4dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/channel_row_detail_card"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:elevation="2dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/channel_row_detail_image"
+                android:layout_width="56dp"
+                android:transitionName="channelImage"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:id="@+id/channel_row_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_text"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_toRightOf="@+id/channel_row_detail_image"
+                android:layout_toEndOf="@+id/channel_row_detail_image"
+                android:layout_toLeftOf="@+id/channel_row_detail_number"
+                android:layout_toStartOf="@+id/channel_row_detail_number"
+                android:ellipsize="end"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/channel_row_detail_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_number"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_alignBaseline="@+id/channel_row_detail_title"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/channel_row_detail_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_text"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_toRightOf="@+id/channel_row_detail_image"
+                android:layout_toEndOf="@+id/channel_row_detail_image"
+                android:layout_below="@+id/channel_row_detail_title"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channels_names_array">
+        <item>@string/channel_detail_name_red</item>
+        <item>@string/channel_detail_name_chv</item>
+        <item>@string/channel_detail_name_13</item>
+        <item>@string/channel_detail_name_tvn</item>
+        <item>@string/channel_detail_name_mega</item>
+    </string-array>
+
+    <string-array name="channels_numbers_array">
+        <item>@string/channel_detail_number_red</item>
+        <item>@string/channel_detail_number_chv</item>
+        <item>@string/channel_detail_number_13</item>
+        <item>@string/channel_detail_number_tvn</item>
+        <item>@string/channel_detail_number_mega</item>
+    </string-array>
+
+    <string-array name="channels_icons_array">
+        <item>@drawable/ic_lared_icon</item>
+        <item>@drawable/ic_chv_icon</item>
+        <item>@drawable/ic_canal13_icon</item>
+        <item>@drawable/ic_tvn_icon</item>
+        <item>@drawable/ic_mega_icon</item>
+    </string-array>
+
+    <string-array name="channels_streams_array">
+        <item>@string/channel_detail_stream_red</item>
+        <item>@string/channel_detail_stream_chv</item>
+        <item>@string/channel_detail_stream_13</item>
+        <item>@string/channel_detail_stream_tvn</item>
+        <item>@string/channel_detail_stream_mega</item>
+    </string-array>
+</resources>
